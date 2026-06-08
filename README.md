@@ -43,7 +43,8 @@ spoiler: they are. by a lot.
 ---
 
 ## project structure
-'''
+
+```
 remote_salary_benchmark/
 ├── notebooks/
 │   ├── 01_data_loading.ipynb
@@ -57,7 +58,7 @@ remote_salary_benchmark/
 ├── outputs/charts/        ← all 6 charts
 ├── app/app.py             ← streamlit app
 └── requirements.txt
-'''
+```
 
 ---
 
