@@ -13,8 +13,8 @@ st.set_page_config(
 # load data
 @st.cache_data
 def load_data():
-    df_levels = pd.read_csv('../data/cleaned_data/levels_cleaned.csv')
-    df_h1b = pd.read_csv('../data/cleaned_data/h1b_cleaned.csv')
+    df_levels = pd.read_csv('data/cleaned_data/levels_cleaned.csv')
+    df_h1b = pd.read_csv('data/cleaned_data/h1b_cleaned.csv')
     return df_levels, df_h1b
 
 df_levels, df_h1b = load_data()
